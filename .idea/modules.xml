@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GaeaSewageMonitoringSys.iml" filepath="$PROJECT_DIR$/GaeaSewageMonitoringSys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8761/GaeaSys-Eureka-8761.iml" filepath="$PROJECT_DIR$/GaeaSys-Eureka-8761/GaeaSys-Eureka-8761.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8762/GaeaSys-Eureka-8762.iml" filepath="$PROJECT_DIR$/GaeaSys-Eureka-8762/GaeaSys-Eureka-8762.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8763/GaeaSys-Eureka-8763.iml" filepath="$PROJECT_DIR$/GaeaSys-Eureka-8763/GaeaSys-Eureka-8763.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml" filepath="$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml" filepath="$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml" filepath="$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory/GaeaSys-factory.iml" filepath="$PROJECT_DIR$/GaeaSys-factory/GaeaSys-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" filepath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector/GaeaSys-sector.iml" filepath="$PROJECT_DIR$/GaeaSys-sector/GaeaSys-sector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory/analysis/analysis.iml" filepath="$PROJECT_DIR$/GaeaSys-factory/analysis/analysis.iml" />
+    </modules>
+  </component>
+</project>

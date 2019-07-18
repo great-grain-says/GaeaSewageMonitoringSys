@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="analysis" />
+        <module name="GaeaSys-api" />
+        <module name="GaeaSys-consumer-80" />
+        <module name="GaeaSys-Eureka-8761" />
+        <module name="GaeaSys-Eureka-8762" />
+        <module name="GaeaSys-Eureka-8763" />
+        <module name="GaeaSys-login" />
+        <module name="GaeaSys-sector" />
+        <module name="GaeaSys-UI" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="analysis" target="1.8" />
+      <module name="GaeaSewageMonitoringSys" target="1.8" />
+      <module name="GaeaSys-api" target="1.8" />
+      <module name="GaeaSys-consumer-80" target="1.8" />
+      <module name="GaeaSys-Eureka-8761" target="1.8" />
+      <module name="GaeaSys-Eureka-8762" target="1.8" />
+      <module name="GaeaSys-Eureka-8763" target="1.8" />
+      <module name="GaeaSys-factory" target="1.8" />
+      <module name="GaeaSys-login" target="1.8" />
+      <module name="GaeaSys-sector" target="1.8" />
+      <module name="GaeaSys-server" target="1.8" />
+      <module name="GaeaSys-UI" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
