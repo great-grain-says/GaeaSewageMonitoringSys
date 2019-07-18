@@ -13,6 +13,7 @@ import java.io.Serializable;
 @Data
 @Accessors(chain = true)
 public class Users implements Serializable {
+
     private Integer user_id;
     private String user_number;
     private String user_name;
