@@ -13,8 +13,8 @@
         <module name="GaeaSys-Eureka-8762" />
         <module name="GaeaSys-Eureka-8763" />
         <module name="GaeaSys-login" />
-        <module name="GaeaSys-sector" />
         <module name="GaeaSys-UI" />
+        <module name="statistic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +30,7 @@
       <module name="GaeaSys-sector" target="1.8" />
       <module name="GaeaSys-server" target="1.8" />
       <module name="GaeaSys-UI" target="1.8" />
+      <module name="statistic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -10,7 +10,28 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>GaeaSys-sector</artifactId>
+    <packaging>pom</packaging>
     <description>
         这块用于开发部门业务
     </description>
+    <modules>
+        <module>statistic</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
