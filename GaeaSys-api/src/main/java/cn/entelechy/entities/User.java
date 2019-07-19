@@ -12,13 +12,10 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Data
 @Accessors(chain = true)
-public class Users implements Serializable {
-
+public class User implements Serializable {
     private Integer user_id;
-    private String user_number;
+    private String user_code;
     private String user_name;
-    private String user_account;
     private String user_password;
-    private Integer user_authority_id;
-    private String users_region_id;
+    private String user_salt;
 }

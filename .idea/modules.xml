@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" filepath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector/GaeaSys-sector.iml" filepath="$PROJECT_DIR$/GaeaSys-sector/GaeaSys-sector.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory/analysis/analysis.iml" filepath="$PROJECT_DIR$/GaeaSys-factory/analysis/analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory/sampling/sampling.iml" filepath="$PROJECT_DIR$/GaeaSys-factory/sampling/sampling.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector/statistic/statistic.iml" filepath="$PROJECT_DIR$/GaeaSys-sector/statistic/statistic.iml" />
     </modules>
   </component>

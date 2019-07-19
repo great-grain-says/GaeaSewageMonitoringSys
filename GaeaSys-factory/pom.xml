@@ -16,6 +16,7 @@
     </description>
     <modules>
         <module>analysis</module>
+        <module>sampling</module>
     </modules>
     <dependencies>
             <dependency>
