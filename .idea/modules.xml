@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml" filepath="$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml" filepath="$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml" filepath="$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-feign/GaeaSys-consumer-feign.iml" filepath="$PROJECT_DIR$/GaeaSys-consumer-feign/GaeaSys-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory/GaeaSys-factory.iml" filepath="$PROJECT_DIR$/GaeaSys-factory/GaeaSys-factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" filepath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector/GaeaSys-sector.iml" filepath="$PROJECT_DIR$/GaeaSys-sector/GaeaSys-sector.iml" />

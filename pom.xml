@@ -18,6 +18,7 @@
         <module>GaeaSys-Eureka-8763</module>
         <module>GaeaSys-login</module>
         <module>GaeaSys-consumer-80</module>
+        <module>GaeaSys-consumer-feign</module>
     </modules>
 
 
@@ -61,7 +62,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.8</version>
+                <version>1.2.31</version>
             </dependency>
 
 

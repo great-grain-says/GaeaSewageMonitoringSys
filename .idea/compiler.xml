@@ -9,6 +9,7 @@
         <module name="analysis" />
         <module name="GaeaSys-api" />
         <module name="GaeaSys-consumer-80" />
+        <module name="GaeaSys-consumer-feign" />
         <module name="GaeaSys-Eureka-8761" />
         <module name="GaeaSys-Eureka-8762" />
         <module name="GaeaSys-Eureka-8763" />
@@ -23,6 +24,7 @@
       <module name="GaeaSewageMonitoringSys" target="1.8" />
       <module name="GaeaSys-api" target="1.8" />
       <module name="GaeaSys-consumer-80" target="1.8" />
+      <module name="GaeaSys-consumer-feign" target="1.8" />
       <module name="GaeaSys-Eureka-8761" target="1.8" />
       <module name="GaeaSys-Eureka-8762" target="1.8" />
       <module name="GaeaSys-Eureka-8763" target="1.8" />
