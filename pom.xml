@@ -19,6 +19,7 @@
         <module>GaeaSys-login</module>
         <module>GaeaSys-consumer-80</module>
         <module>GaeaSys-consumer-feign</module>
+        <module>GaeaSys-consumer-hystrix-dashboard</module>
     </modules>
 
 

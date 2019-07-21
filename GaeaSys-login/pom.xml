@@ -11,7 +11,12 @@
 
     <artifactId>GaeaSys-login</artifactId>
     <dependencies>
-        <!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
+        <!-- hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+        <!-- 引入自己定义的api通用包-->
         <dependency>
             <groupId>cn.entelechy</groupId>
             <artifactId>GaeaSys-api</artifactId>
