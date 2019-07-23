@@ -9,6 +9,7 @@ import cn.entelechy.service.factoryAnalysisClientService;
 public class factoryAnalysisController_Consumer {
     @Autowired
     private factoryAnalysisClientService service;
+
 //    @RequestMapping(value = "/consumer/dept/list")
 //    public List<Dept> list()
 //    {

@@ -1,6 +1,8 @@
 package cn.entelechy.service;
 
+import cn.entelechy.entities.City;
 import feign.hystrix.FallbackFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component // 不要忘记添加，不要忘记添加

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -33,7 +34,6 @@
       <module name="GaeaSys-factory" target="1.8" />
       <module name="GaeaSys-login" target="1.8" />
       <module name="GaeaSys-sector" target="1.8" />
-      <module name="GaeaSys-server" target="1.8" />
       <module name="GaeaSys-UI" target="1.8" />
       <module name="sampling" target="1.8" />
       <module name="statistic" target="1.8" />
