@@ -34,7 +34,6 @@
       <module name="GaeaSys-factory" target="1.8" />
       <module name="GaeaSys-login" target="1.8" />
       <module name="GaeaSys-sector" target="1.8" />
-      <module name="GaeaSys-server" target="1.8" />
       <module name="GaeaSys-UI" target="1.8" />
       <module name="sampling" target="1.8" />
       <module name="statistic" target="1.8" />
