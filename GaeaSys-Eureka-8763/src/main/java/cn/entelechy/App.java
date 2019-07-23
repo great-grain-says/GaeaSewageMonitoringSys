@@ -4,6 +4,7 @@ package cn.entelechy;
  * Hello world!
  *
  */
+
 public class App 
 {
     public static void main( String[] args )

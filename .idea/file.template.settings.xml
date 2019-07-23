@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExportableFileTemplateSettings">
+    <internal_templates>
+      <template name="AnnotationType.java" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="Class.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="ColdFusion File.cfm" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="ColdFusion Script Component.cfc" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="ColdFusion Script Interface.cfc" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="ColdFusion Tag Component.cfc" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="ColdFusion Tag Interface.cfc" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="HTML4 File.html" reformat="false" live-template-enabled="true" enabled="true" />
+      <template name="Interface.java" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="Kotlin File.kt" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="module-info.java" reformat="false" live-template-enabled="true" enabled="true" />
+      <template name="package-info.java" reformat="false" live-template-enabled="false" enabled="true" />
+      <template name="XHTML File.xhtml" reformat="false" live-template-enabled="true" enabled="true" />
+      <template name="XML Properties File.xml" reformat="true" live-template-enabled="true" enabled="true" />
+    </internal_templates>
+  </component>
+</project>

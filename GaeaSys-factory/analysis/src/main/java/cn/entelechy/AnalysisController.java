@@ -1,4 +1,4 @@
-package cn.entelechy.controller;
+package cn.entelechy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

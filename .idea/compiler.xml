@@ -2,22 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="analysis" />
-        <module name="GaeaSys-api" />
-        <module name="GaeaSys-consumer-80" />
-        <module name="GaeaSys-consumer-feign" />
-        <module name="GaeaSys-consumer-hystrix-dashboard" />
-        <module name="GaeaSys-Eureka-8761" />
-        <module name="GaeaSys-Eureka-8762" />
-        <module name="GaeaSys-Eureka-8763" />
-        <module name="GaeaSys-login" />
-        <module name="GaeaSys-UI" />
         <module name="sampling" />
+        <module name="analysis" />
+        <module name="GaeaSys-UI" />
+        <module name="GaeaSys-consumer-feign" />
+        <module name="GaeaSys-api" />
+        <module name="GaeaSys-Eureka-8763" />
+        <module name="GaeaSys-Eureka-8762" />
+        <module name="GaeaSys-consumer-80" />
         <module name="statistic" />
+        <module name="GaeaSys-Eureka-8761" />
+        <module name="GaeaSys-consumer-hystrix-dashboard" />
+        <module name="GaeaSys-login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
