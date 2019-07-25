@@ -8,5 +8,7 @@ import java.util.List;
 
 @Mapper
 public interface CityMapper {
-    public List<City> getCityList(@Param("id") Integer id);
+
+
+    public City getCity(@Param("id") Integer id);
 }

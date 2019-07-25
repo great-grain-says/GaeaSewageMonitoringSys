@@ -5,5 +5,5 @@ import cn.entelechy.entities.City;
 import java.util.List;
 
 public interface CityService {
-    public List<City> getCityList(Integer id);
+    public City getCityList(Integer id);
 }

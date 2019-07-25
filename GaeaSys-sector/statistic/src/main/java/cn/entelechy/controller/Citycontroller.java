@@ -17,12 +17,15 @@ public class Citycontroller {
 
     @RequestMapping(value = "/city/list/{id}", method = RequestMethod.GET)
     public Object getAll(@PathVariable("id") Integer id) throws RuntimeException {
-        System.out.println("====================================");
-        List<City> list = null;
+            System.out.println("===================================="+id);
+        City list = null;
         list = cityService.getCityList(id);
         if (null == list) {
             throw new RuntimeException("没有没有对应的信息!" + list);
+        }else {
+            System.out.println("===================================="+list);
         }
+
       //  ModelAndView view =new ModelAndView("index");
         return list;
     }

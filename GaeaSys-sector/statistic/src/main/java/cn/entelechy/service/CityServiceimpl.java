@@ -9,9 +9,10 @@ import java.util.List;
 public class CityServiceimpl implements CityService {
     @Autowired
     private CityMapper cityMapper;
+    //按条件id来查询所有市区
     @Override
-    public List<City> getCityList(Integer id) {
-        return cityMapper.getCityList(id);
+    public City getCityList(Integer id) {
+        return cityMapper.getCity(id);
     }
 
 
