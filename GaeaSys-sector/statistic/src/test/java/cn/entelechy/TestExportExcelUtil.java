@@ -27,6 +27,4 @@ public class TestExportExcelUtil {
         String[] columnNames = { "ID", "姓名", "性别" };
         util.exportExcel("用户导出", columnNames, list, new FileOutputStream("S:/test.xls"), ExportExcelUtil.EXCEL_FILE_2003);
     }
-
-
 }
