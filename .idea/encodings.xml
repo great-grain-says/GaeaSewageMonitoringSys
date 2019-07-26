@@ -13,8 +13,12 @@
     <file url="file://$PROJECT_DIR$/GaeaSys-factory" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-factory/analysis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-factory/sampling" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GaeaSys-factory/sampling" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GaeaSys-factory/sampling" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-sector" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GaeaSys-sector/historical-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GaeaSys-sector/map-projection" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-sector/statistic" charset="UTF-8" />
   </component>
 </project>
