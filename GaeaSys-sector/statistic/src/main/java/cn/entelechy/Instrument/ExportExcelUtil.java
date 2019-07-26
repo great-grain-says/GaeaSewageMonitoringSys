@@ -130,7 +130,7 @@ public class ExportExcelUtil<T>{
         XSSFCellStyle style2 = workbook.createCellStyle();
         style2.setFillForegroundColor(new XSSFColor(java.awt.Color.WHITE));
         style2.setFillPattern(XSSFCellStyle.SOLID_FOREGROUND);
-        style2.setBorderBottom(XSSFCellStyle.BORDER_THIN);
+        style2.setBorderBottom(XSSFCellStyle.BORDER_THIN);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
         style2.setBorderLeft(XSSFCellStyle.BORDER_THIN);
         style2.setBorderRight(XSSFCellStyle.BORDER_THIN);
         style2.setBorderTop(XSSFCellStyle.BORDER_THIN);
