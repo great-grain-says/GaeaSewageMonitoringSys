@@ -20,6 +20,11 @@
         <module>GaeaSys-consumer-80</module>
         <module>GaeaSys-consumer-feign</module>
         <module>GaeaSys-consumer-hystrix-dashboard</module>
+        <module>GaeaSys-factory-sampling</module>
+        <module>GaeaSys-factory-analysis</module>
+        <module>GaeaSys-sector-historicaldata</module>
+        <module>GaeaSys-sector-mapprojection</module>
+        <module>GaeaSys-sector-statistic</module>
     </modules>
 
 

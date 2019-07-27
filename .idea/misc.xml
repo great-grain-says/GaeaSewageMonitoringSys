@@ -8,7 +8,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/GaeaSys-factory/pom.xml" />
         <option value="$PROJECT_DIR$/GaeaSys-factory/sampling/pom.xml" />
+        <option value="$PROJECT_DIR$/GaeaSys-sector/historical-data/pom.xml" />
+        <option value="$PROJECT_DIR$/GaeaSys-sector/map-projection/pom.xml" />
+        <option value="$PROJECT_DIR$/GaeaSys-sector/pom.xml" />
         <option value="$PROJECT_DIR$/GaeaSys-server/pom.xml" />
       </set>
     </option>
