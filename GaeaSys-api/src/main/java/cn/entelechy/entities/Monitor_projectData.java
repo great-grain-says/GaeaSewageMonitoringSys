@@ -16,6 +16,7 @@ public class Monitor_projectData implements Serializable {
     private Integer factory_id;
     private String emission_sources_code;//(企业排放源头编号)
     private String monitor_projectType_code;//(监测污水污染物编码)
+    private Integer monitor_projectData_data;
     private String monitor_projectType_unit;//(测量单位)
     private Date monitor_projectData_date;//(记录时间精确到分)
     private String monitor_projectData_desc;//(备注:进水监测|出水监测)
@@ -27,6 +28,15 @@ public class Monitor_projectData implements Serializable {
     public void setMonitor_projectData_id(Integer monitor_projectData_id) {
         this.monitor_projectData_id = monitor_projectData_id;
     }
+
+    public Integer getmonitor_projectData_data() {
+        return monitor_projectData_data;
+    }
+
+    public void setmonitor_projectData_data(Integer monitor_projectData_data) {
+        this.monitor_projectData_data = monitor_projectData_data;
+    }
+
 
     public Integer getFactory_id() {
         return factory_id;

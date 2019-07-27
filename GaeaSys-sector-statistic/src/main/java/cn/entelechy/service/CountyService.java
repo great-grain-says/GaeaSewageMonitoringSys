@@ -3,7 +3,9 @@ package cn.entelechy.service;
 
 import cn.entelechy.entities.County;
 
+import java.util.List;
+
 public interface CountyService {
-    public County getCityList(Integer id);
+    public List<County> getCityList(Integer id);
 
 }

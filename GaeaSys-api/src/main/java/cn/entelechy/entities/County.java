@@ -9,6 +9,7 @@ public class County {
     private Integer county_id;
     private String county_name;
 
+
     public Integer getCounty_id() {
         return county_id;
     }

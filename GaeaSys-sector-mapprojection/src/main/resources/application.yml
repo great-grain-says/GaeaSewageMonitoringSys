@@ -1,5 +1,5 @@
 server:
-  port: 8012
+  port: 8010
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
@@ -9,11 +9,11 @@ mybatis:
 
 spring:
   application:
-    name: sector-mapprojection
+    name: sector-statistic
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://192.168.0.15:3306/gaeasewagemonitoringsys              # 数据库名称
+    url: jdbc:mysql://192.168.0.53:3306/gaeasewagemonitoringsys              # 数据库名称
     username: loves
     password: 123456
     dbcp2:
