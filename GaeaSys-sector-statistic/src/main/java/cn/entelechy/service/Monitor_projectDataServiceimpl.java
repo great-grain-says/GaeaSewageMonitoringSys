@@ -15,7 +15,7 @@ public class Monitor_projectDataServiceimpl implements Monitor_projectDataServic
     private Monitor_projectDataMapper monitor_projectDataMapper;
 
 
-    //按两个条件id来查询监测项目数据表
+    //按两个条件id来查询监测项目数据表 工厂id
     @Override
     public List<Monitor_projectData> getmonitor_projectDatalist(Integer id, String eid){
         return monitor_projectDataMapper.getmonitor_projectDatalist(id,eid);
