@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/GaeaSewageMonitoringSys.iml" filepath="$PROJECT_DIR$/GaeaSewageMonitoringSys.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8761/GaeaSys-Eureka-8761.iml" filepath="$PROJECT_DIR$/GaeaSys-Eureka-8761/GaeaSys-Eureka-8761.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8762/GaeaSys-Eureka-8762.iml" filepath="$PROJECT_DIR$/GaeaSys-Eureka-8762/GaeaSys-Eureka-8762.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8763/GaeaSys-Eureka-8763.iml" filepath="$PROJECT_DIR$/GaeaSys-Eureka-8763/GaeaSys-Eureka-8763.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml" filepath="$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml" filepath="$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml" filepath="$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-feign/GaeaSys-consumer-feign.iml" filepath="$PROJECT_DIR$/GaeaSys-consumer-feign/GaeaSys-consumer-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-hystrix-dashboard/GaeaSys-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/GaeaSys-consumer-hystrix-dashboard/GaeaSys-consumer-hystrix-dashboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory-analysis/GaeaSys-factory-analysis.iml" filepath="$PROJECT_DIR$/GaeaSys-factory-analysis/GaeaSys-factory-analysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory-sampling/GaeaSys-factory-sampling.iml" filepath="$PROJECT_DIR$/GaeaSys-factory-sampling/GaeaSys-factory-sampling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" filepath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml" filepath="$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml" filepath="$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml" filepath="$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml" />
-    </modules>
-  </component>
+    <component name="ProjectModuleManager">
+        <modules>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSewageMonitoringSys.iml"
+                    filepath="$PROJECT_DIR$/GaeaSewageMonitoringSys.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8761/GaeaSys-Eureka-8761.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-Eureka-8761/GaeaSys-Eureka-8761.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8762/GaeaSys-Eureka-8762.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-Eureka-8762/GaeaSys-Eureka-8762.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-Eureka-8763/GaeaSys-Eureka-8763.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-Eureka-8763/GaeaSys-Eureka-8763.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-UI/GaeaSys-UI.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-api/GaeaSys-api.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-consumer-80/GaeaSys-consumer-80.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-feign/GaeaSys-consumer-feign.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-consumer-feign/GaeaSys-consumer-feign.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-consumer-hystrix-dashboard/GaeaSys-consumer-hystrix-dashboard.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-consumer-hystrix-dashboard/GaeaSys-consumer-hystrix-dashboard.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory-analysis/GaeaSys-factory-analysis.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-factory-analysis/GaeaSys-factory-analysis.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory-sampling/GaeaSys-factory-sampling.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-factory-sampling/GaeaSys-factory-sampling.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml"/>
+            <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory-examiningreport/GaeaSys-factory-examiningreport.iml"
+                    filepath="$PROJECT_DIR$/GaeaSys-factory-examiningreport/GaeaSys-factory-examiningreport.iml"/>
+        </modules>
+    </component>
 </project>
