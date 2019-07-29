@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.entelechy.dao.Monitor_projectdata_todayMapper">
+    <insert id="addMonitor" parameterType="cn.entelechy.entities.Monitor_projectData_today">
+        insert into monitor_projectdata_today
+          (monitor_projectData_code,factory_id,emission_sources_code,
+          G010,G011,G012,G013,G015,G016,G025,G007,T015,Z002,
+          monitor_projectData_date_start,monitor_projectData_date_over,monitor_flag_code)
+          VALUES
+          (#{monitor_projectData_code},#{factory_id},#{emission_sources_code},#{G010},#{G011},#{G012},#{G013},#{G015},#{G016},#{G025},#{G007},#{T015},#{Z002},
+          #{monitor_projectData_date_start},#{monitor_projectData_date_over},#{monitor_flag_code})
+    </insert>
+    <!--('MD529076',5,'EM1-512',112,70,8,10,14,17,8,11,5,14,'2019-07-19 09:11:00','2019-07-19 17:52:00','N')-->
+</mapper>

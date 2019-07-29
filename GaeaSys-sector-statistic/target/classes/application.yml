@@ -13,8 +13,8 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://192.168.0.15:3306/gaeasewagemonitoringsys              # 数据库名称
-    username: LOVES
+    url: jdbc:mysql://192.168.0.11:3306/gaeasewagemonitoringsys              # 数据库名称
+    username: xiao
     password: 123456
     dbcp2:
       min-idle: 5                                           # 数据库连接池的最小维持连接数

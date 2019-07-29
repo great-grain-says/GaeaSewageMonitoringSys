@@ -6,7 +6,5 @@ import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface CityMapper {
-
-
     public City getCity(@Param("id") Integer id);
 }
