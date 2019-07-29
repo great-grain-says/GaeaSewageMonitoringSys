@@ -36,12 +36,15 @@ public class AppTest
    //污水处理地区
     @Autowired
     private Sewage_treatment_areaService sewage_treatment_areaService ;
-    //工厂排放源头表
+    //工厂排放源头
     @Autowired
     private Emission_sourcesService emission_sourcesService;
-    //监测项目数据表
+    //监测项目数据
     @Autowired
     private Monitor_projectDataService monitor_projectDataService;
+    //监测污染物类型
+    @Autowired
+    private Monitor_projectTypeService monitorProjectTypeService;
 
     /**
      * Rigorous Test :-)
@@ -66,13 +69,14 @@ public class AppTest
                     List<Monitor_projectData> monitor_projectData=monitor_projectDataService.getmonitor_projectDatalist(fac.getFactory_id(),Emission.getEmission_sources_code());
                     for (Monitor_projectData Monitor : monitor_projectData) {
                         System.out.println("下的时间"+Monitor.getMonitor_projectData_date()+"的"+Monitor.getmonitor_projectData_data()+Monitor.getMonitor_projectType_unit()+"测量单位");
+                        List<Monitor_projectType> monitor_projectTypes=monitorProjectTypeService.getmonitor_projectTypelist(Monitor.getMonitor_projectType_code(),Monitor.getMonitor_projectType_unit());
+                        for (Monitor_projectType projectType : monitor_projectTypes) {
+                            System.out.print("的"+projectType.getMonitor_projectType_name());
+
+                        }
                     }
                 }
-
-
             }
         }
-
-
     }
 }
