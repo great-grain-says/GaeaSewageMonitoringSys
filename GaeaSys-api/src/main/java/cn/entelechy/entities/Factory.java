@@ -17,7 +17,34 @@ public class Factory implements Serializable {
     private Integer county_id;
     private Integer industrial_park_id;
     private String factory_address;
+    private String factory_legal_representative;
+    private String factory_phone;
+    private String factory_jinweidu;
     private String factory_exequatur;
+
+    public String getFactory_legal_representative() {
+        return factory_legal_representative;
+    }
+
+    public void setFactory_legal_representative(String factory_legal_representative) {
+        this.factory_legal_representative = factory_legal_representative;
+    }
+
+    public String getFactory_phone() {
+        return factory_phone;
+    }
+
+    public void setFactory_phone(String factory_phone) {
+        this.factory_phone = factory_phone;
+    }
+
+    public String getFactory_jinweidu() {
+        return factory_jinweidu;
+    }
+
+    public void setFactory_jinweidu(String factory_jinweidu) {
+        this.factory_jinweidu = factory_jinweidu;
+    }
 
     public Integer getFactory_id() {
         return factory_id;

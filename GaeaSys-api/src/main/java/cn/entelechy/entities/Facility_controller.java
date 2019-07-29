@@ -9,8 +9,8 @@ import java.io.Serializable;
 
 public class Facility_controller implements Serializable {
     private Integer monitor_facility_id;
-    private Integer factory_id;
-    private String facility_controller_type;//(设备控制具体事宜)
+    private String facility_controller_code;
+    private String facility_controller_desc;
 
     public Integer getMonitor_facility_id() {
         return monitor_facility_id;
@@ -20,19 +20,19 @@ public class Facility_controller implements Serializable {
         this.monitor_facility_id = monitor_facility_id;
     }
 
-    public Integer getFactory_id() {
-        return factory_id;
+    public String getFacility_controller_code() {
+        return facility_controller_code;
     }
 
-    public void setFactory_id(Integer factory_id) {
-        this.factory_id = factory_id;
+    public void setFacility_controller_code(String facility_controller_code) {
+        this.facility_controller_code = facility_controller_code;
     }
 
-    public String getFacility_controller_type() {
-        return facility_controller_type;
+    public String getFacility_controller_desc() {
+        return facility_controller_desc;
     }
 
-    public void setFacility_controller_type(String facility_controller_type) {
-        this.facility_controller_type = facility_controller_type;
+    public void setFacility_controller_desc(String facility_controller_desc) {
+        this.facility_controller_desc = facility_controller_desc;
     }
 }

@@ -17,8 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml" filepath="$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml" filepath="$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml" />
       <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml" filepath="$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-factory/analysis/analysis.iml" filepath="$PROJECT_DIR$/GaeaSys-factory/analysis/analysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GaeaSys-sector/statistic/statistic.iml" filepath="$PROJECT_DIR$/GaeaSys-sector/statistic/statistic.iml" />
     </modules>
   </component>
 </project>
