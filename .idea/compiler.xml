@@ -16,6 +16,7 @@
         <module name="GaeaSys-Eureka-8762" />
         <module name="GaeaSys-Eureka-8763" />
         <module name="GaeaSys-factory-analysis" />
+        <module name="GaeaSys-factory-monitor" />
         <module name="GaeaSys-factory-sampling" />
         <module name="GaeaSys-login" />
         <module name="GaeaSys-sector-historicaldata" />
@@ -37,6 +38,7 @@
       <module name="GaeaSys-Eureka-8763" target="1.8" />
       <module name="GaeaSys-factory" target="1.8" />
       <module name="GaeaSys-factory-analysis" target="1.8" />
+      <module name="GaeaSys-factory-monitor" target="1.8" />
       <module name="GaeaSys-factory-sampling" target="1.8" />
       <module name="GaeaSys-login" target="1.8" />
       <module name="GaeaSys-sector" target="1.8" />

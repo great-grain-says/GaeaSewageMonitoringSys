@@ -25,6 +25,7 @@
         <module>GaeaSys-sector-historicaldata</module>
         <module>GaeaSys-sector-mapprojection</module>
         <module>GaeaSys-sector-statistic</module>
+        <module>GaeaSys-factory-monitor</module>
     </modules>
 
 
