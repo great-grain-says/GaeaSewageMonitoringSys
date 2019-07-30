@@ -10,5 +10,8 @@ import java.util.List;
 @FeignClient(value = "SECTOR-STATISTIC",fallbackFactory = sectorStatisticClientServiceFallbackFactory.class)
 public interface sectorStatisticClientService {
     @RequestMapping(value = "/city/list/{id}")
-    public List<City> getAll(@PathVariable("id") Integer id);
+     City getAll(@PathVariable("id") Integer id);
+
+    @RequestMapping(value = "/city/list")
+    Object getAll();
 }

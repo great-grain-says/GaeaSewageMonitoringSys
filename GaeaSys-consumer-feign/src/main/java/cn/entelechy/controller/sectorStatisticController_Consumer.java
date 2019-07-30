@@ -12,9 +12,15 @@ import java.util.List;
 @RestController
 public class sectorStatisticController_Consumer {
     @Autowired
-    private sectorStatisticClientService service;
+    private sectorStatisticClientService sectorStatisticClientService;
+
     @RequestMapping(value = "/consumer/city/list/{id}")
-    public List<City> getALl(@PathVariable("id") Integer id){
-      return this.service.getAll(id);
+    public City getAll(@PathVariable("id") Integer id) {
+        return this.sectorStatisticClientService.getAll(id);
+    }
+
+    @RequestMapping(value = "/consumer/city/list")
+    public Object getAll() {
+        return this.sectorStatisticClientService.getAll();
     }
 }
