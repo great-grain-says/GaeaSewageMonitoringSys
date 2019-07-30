@@ -2,35 +2,21 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-Eureka-8761" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-Eureka-8761" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-Eureka-8762" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-Eureka-8762" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-Eureka-8763" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-Eureka-8763" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-UI" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-UI" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-consumer-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-consumer-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-consumer-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-consumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-consumer-hystrix-dashboard" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-consumer-hystrix-dashboard" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-factory-analysis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-factory-analysis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-factory-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-factory-sampling" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-factory-sampling" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-login" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-sector-historicaldata" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-sector-historicaldata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-sector-mapprojection" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-sector-mapprojection" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GaeaSys-sector-statistic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GaeaSys-sector-statistic" charset="UTF-8" />
   </component>
 </project>

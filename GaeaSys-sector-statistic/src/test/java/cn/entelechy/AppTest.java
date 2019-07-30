@@ -1,13 +1,12 @@
 package cn.entelechy;
 
-import static org.junit.Assert.assertTrue;
 import cn.entelechy.entities.*;
 import cn.entelechy.entities.City;
 import cn.entelechy.entities.County;
 import cn.entelechy.entities.Factory;
 import cn.entelechy.entities.Sewage_treatment_area;
+import cn.entelechy.Instrument.*;
 import cn.entelechy.service.*;
-import org.apache.commons.collections.bag.SynchronizedSortedBag;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,6 +45,8 @@ public class AppTest
     @Autowired
     private Monitor_projectTypeService monitorProjectTypeService;
 
+
+    private SewageInstrument sewageI;
     /**
      * Rigorous Test :-)
      */
@@ -61,10 +62,14 @@ public class AppTest
                 System.out.println(fac.getFactory_name()+"下的");
                 List<Sewage_treatment_area> sewage_treatment_areas=sewage_treatment_areaService.getsewage_treatment_arealist(fac.getFactory_id());
                 for (Sewage_treatment_area sewag : sewage_treatment_areas) {
-                    System.out.println(sewag.getSewage_treatment_area_name());
+                    sewageI=new SewageInstrument();
+                    System.out.println(sewag.getSewage_treatment_area_code1());
+                    System.out.println(sewageI.sewageint(sewag.getSewage_treatment_area_code1()));
+                    System.out.println("备注"+sewag.getSewage_treatment_area_desc());
                 }
+
                 List<Emission_sources> emission_sources=emission_sourcesService.getemission_sourceslist(fac.getFactory_id());
-                for (Emission_sources Emission : emission_sources) {
+               /* for (Emission_sources Emission : emission_sources) {
                     System.out.println("和"+Emission.getEmission_sources_desc());
                     List<Monitor_projectData> monitor_projectData=monitor_projectDataService.getmonitor_projectDatalist(fac.getFactory_id(),Emission.getEmission_sources_code());
                     for (Monitor_projectData Monitor : monitor_projectData) {
@@ -75,7 +80,7 @@ public class AppTest
 
                         }
                     }
-                }
+                }*/
             }
         }
     }
