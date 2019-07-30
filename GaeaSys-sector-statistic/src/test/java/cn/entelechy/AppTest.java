@@ -48,7 +48,7 @@ public class AppTest
 
     private SewageInstrument sewageI;
     /**
-     * Rigorous Test :-)
+     * Rigorous Test :
      */
     @Test
     public void shoulcounAnswerWithTrue()

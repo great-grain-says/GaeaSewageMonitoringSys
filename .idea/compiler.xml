@@ -8,43 +8,44 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GaeaSys-Eureka-8761" />
-        <module name="GaeaSys-consumer-feign" />
+        <module name="GaeaSys-consumer-80" />
+        <module name="GaeaSys-UI" />
         <module name="GaeaSys-sector-mapprojection" />
         <module name="GaeaSys-api" />
         <module name="GaeaSys-sector-statistic" />
         <module name="GaeaSys-login" />
-        <module name="statistic" />
         <module name="GaeaSys-factory-monitor" />
+        <module name="GaeaSys-consumer-feign" />
         <module name="GaeaSys-factory-sampling" />
         <module name="GaeaSys-factory-analysis" />
-        <module name="GaeaSys-UI" />
+        <module name="GaeaSys-Eureka-8763" />
         <module name="GaeaSys-sector-historicaldata" />
         <module name="GaeaSys-consumer-hystrix-dashboard" />
         <module name="analysis" />
-        <module name="GaeaSys-Eureka-8763" />
+        <module name="statistic" />
         <module name="GaeaSys-Eureka-8762" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="analysis" target="1.8" />
       <module name="GaeaSewageMonitoringSys" target="1.8" />
-      <module name="GaeaSys-api" target="1.5" />
+      <module name="GaeaSys-api" target="1.8" />
       <module name="GaeaSys-consumer-80" target="1.8" />
-      <module name="GaeaSys-consumer-feign" target="1.5" />
-      <module name="GaeaSys-consumer-hystrix-dashboard" target="1.5" />
-      <module name="GaeaSys-Eureka-8761" target="1.5" />
-      <module name="GaeaSys-Eureka-8762" target="1.5" />
-      <module name="GaeaSys-Eureka-8763" target="1.5" />
+      <module name="GaeaSys-consumer-feign" target="1.8" />
+      <module name="GaeaSys-consumer-hystrix-dashboard" target="1.8" />
+      <module name="GaeaSys-Eureka-8761" target="1.8" />
+      <module name="GaeaSys-Eureka-8762" target="1.8" />
+      <module name="GaeaSys-Eureka-8763" target="1.8" />
       <module name="GaeaSys-factory" target="1.8" />
-      <module name="GaeaSys-factory-analysis" target="1.5" />
-      <module name="GaeaSys-factory-monitor" target="1.5" />
-      <module name="GaeaSys-factory-sampling" target="1.5" />
-      <module name="GaeaSys-login" target="1.5" />
+      <module name="GaeaSys-factory-analysis" target="1.8" />
+      <module name="GaeaSys-factory-monitor" target="1.8" />
+      <module name="GaeaSys-factory-sampling" target="1.8" />
+      <module name="GaeaSys-login" target="1.8" />
       <module name="GaeaSys-sector" target="1.8" />
-      <module name="GaeaSys-sector-historicaldata" target="1.5" />
-      <module name="GaeaSys-sector-mapprojection" target="1.5" />
-      <module name="GaeaSys-sector-statistic" target="1.5" />
-      <module name="GaeaSys-UI" target="1.5" />
+      <module name="GaeaSys-sector-historicaldata" target="1.8" />
+      <module name="GaeaSys-sector-mapprojection" target="1.8" />
+      <module name="GaeaSys-sector-statistic" target="1.8" />
+      <module name="GaeaSys-UI" target="1.8" />
       <module name="historical-data" target="1.8" />
       <module name="map-projection" target="1.8" />
       <module name="sampling" target="1.8" />
