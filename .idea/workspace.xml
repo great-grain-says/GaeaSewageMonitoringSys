@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef8d816f-bad3-4d60-9791-26476cf37bed" name="Default Changelist" comment="张学文">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/dao/FactoryMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/resources/mybatis/mapper/FactoryMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/dao/Monitor_projectdata_todayMapper.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/dao/TodayDataMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/Monitor_projectdata_todayService.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/Monitor_projectdata_todayServiceImpl.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/TodayDataMapperServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/resources/mybatis/mapper/Monitor_projectdata_todayMapper.xml" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/resources/mybatis/mapper/TodayDataMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-consumer-feign/target/classes/cn/entelechy/controller/sectorStatisticController_Consumer.class" afterPath="$PROJECT_DIR$/GaeaSys-consumer-feign/target/classes/cn/entelechy/controller/sectorStatisticController_Consumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-statistic/target/classes/cn/entelechy/controller/Citycontroller.class" afterPath="$PROJECT_DIR$/GaeaSys-sector-statistic/target/classes/cn/entelechy/controller/Citycontroller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-statistic/target/test-classes/cn/entelechy/AppTest.class" afterPath="$PROJECT_DIR$/GaeaSys-sector-statistic/target/test-classes/cn/entelechy/AppTest.class" />
+    <list default="true" id="ef8d816f-bad3-4d60-9791-26476cf37bed" name="Default Changelist" comment="删除Ribbon的负载均衡,采用Feign负载均衡">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AddTodayData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-analysis/GaeaSys-factory-analysis.iml" afterPath="$PROJECT_DIR$/GaeaSys-factory-analysis/GaeaSys-factory-analysis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/GaeaSys-factory-monitor.iml" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/GaeaSys-factory-monitor.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/FactoryMonitor8004_Application.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/FactoryMonitor8004_Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/TodayDataMapperServiceImpl.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/TodayDataMapperServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AppTest.java" afterPath="$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-factory-sampling/GaeaSys-factory-sampling.iml" afterPath="$PROJECT_DIR$/GaeaSys-factory-sampling/GaeaSys-factory-sampling.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" afterPath="$PROJECT_DIR$/GaeaSys-login/GaeaSys-login.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml" afterPath="$PROJECT_DIR$/GaeaSys-sector-historicaldata/GaeaSys-sector-historicaldata.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml" afterPath="$PROJECT_DIR$/GaeaSys-sector-mapprojection/GaeaSys-sector-mapprojection.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml" afterPath="$PROJECT_DIR$/GaeaSys-sector-statistic/GaeaSys-sector-statistic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GaeaSys-sector-statistic/target/classes/application.yml" afterPath="$PROJECT_DIR$/GaeaSys-sector-statistic/target/classes/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,54 +59,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EurekaServerApplication8761.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaeaSys-Eureka-8761/src/main/java/cn/entelechy/EurekaServerApplication8761.java">
+      <file leaf-file-name="TodayDataMapperService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="145">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consumer80_Feign_App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaeaSys-consumer-feign/src/main/java/cn/entelechy/Consumer80_Feign_App.java">
+      <file leaf-file-name="TodayDataMapperServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/TodayDataMapperServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryMonitor8004_Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/FactoryMonitor8004_Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectorStatistic8010_Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/SectorStatistic8010_Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sectorStatisticController_Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaeaSys-consumer-feign/src/main/java/cn/entelechy/controller/sectorStatisticController_Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="48" />
-              <folding>
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Citycontroller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/controller/Citycontroller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -136,8 +99,8 @@
         <option value="package-info" />
         <option value="Kotlin File" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -159,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GaeaSys-sector-historicaldata/src/main/java/cn/entelechy/SectorHistoricalData8011_Application.java" />
-        <option value="$PROJECT_DIR$/GaeaSys-sector-mapprojection/src/main/java/cn/entelechy/SectorMapProjection8012_Application.java" />
-        <option value="$PROJECT_DIR$/GaeaSys-sector-historicaldata/src/main/resources/mybatis/mybatis.cfg.xml" />
-        <option value="$PROJECT_DIR$/GaeaSys-sector-mapprojection/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/GaeaSys-sector-historicaldata/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/GaeaSys-sector-statistic/pom.xml" />
         <option value="$PROJECT_DIR$/GaeaSys-consumer-feign/src/main/resources/application.yml" />
@@ -205,11 +164,15 @@
         <option value="$PROJECT_DIR$/GaeaSys-consumer-80/target/classes/application.yml" />
         <option value="$PROJECT_DIR$/GaeaSys-sector-statistic/src/test/java/cn/entelechy/AppTest.java" />
         <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/dao/TodayDataMapper.java" />
-        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java" />
         <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/dao/FactoryMapper.java" />
         <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/resources/mybatis/mapper/FactoryMapper.xml" />
-        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AppTest.java" />
         <option value="$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AddTodayData.java" />
+        <option value="$PROJECT_DIR$/GaeaSys-consumer-feign/src/main/java/cn/entelechy/controller/sectorStatisticController_Consumer.java" />
+        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java" />
+        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/TodayDataMapperServiceImpl.java" />
+        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AppTest.java" />
+        <option value="$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/FactoryMonitor8004_Application.java" />
       </list>
     </option>
   </component>
@@ -289,6 +252,86 @@
               <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entelechy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entelechy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entelechy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaeaSewageMonitoringSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaeaSewageMonitoringSys" type="462c0819:PsiDirectoryNode" />
+              <item name="GaeaSys-factory-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entelechy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -341,8 +384,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SectorStatistic8010_Application">
-    <configuration name="AppTest.addFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.FactoryMonitor8004_Application">
+    <configuration name="AppTest.TimerAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cn.entelechy.*" />
@@ -354,7 +397,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.entelechy" />
       <option name="MAIN_CLASS_NAME" value="cn.entelechy.AppTest" />
-      <option name="METHOD_NAME" value="addFactory" />
+      <option name="METHOD_NAME" value="TimerAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -405,23 +448,15 @@
       <module name="GaeaSys-Eureka-8761" />
       <envs />
     </configuration>
-    <configuration name="EurekaServerApplication8763" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="FactoryMonitor8004_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cn.entelechy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.entelechy.EurekaServerApplication8763" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GaeaSys-Eureka-8763" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.entelechy.FactoryMonitor8004_Application" />
+      <module name="GaeaSys-factory-monitor" />
       <envs />
     </configuration>
     <configuration name="SectorStatistic8010_Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -446,17 +481,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.EurekaServerApplication8761" />
       <item index="1" class="java.lang.String" itemvalue="Application.SectorStatistic8010_Application" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EurekaServerApplication8763" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Consumer80_Feign_App" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest.addFactory" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Consumer80_Feign_App" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.TimerAdd" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.FactoryMonitor8004_Application" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SectorStatistic8010_Application" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.FactoryMonitor8004_Application" />
         <item index="1" class="java.lang.String" itemvalue="Application.Consumer80_Feign_App" />
         <item index="2" class="java.lang.String" itemvalue="Application.EurekaServerApplication8761" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.addFactory" />
-        <item index="4" class="java.lang.String" itemvalue="Application.EurekaServerApplication8763" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.TimerAdd" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SectorStatistic8010_Application" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +537,7 @@
       <workItem from="1564447025810" duration="522000" />
       <workItem from="1564447721064" duration="1168000" />
       <workItem from="1564455205212" duration="8653000" />
-      <workItem from="1564466252898" duration="1071000" />
+      <workItem from="1564466252898" duration="7255000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1563874760373</created>
@@ -553,18 +588,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564447222688</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="删除Ribbon的负载均衡,采用Feign负载均衡">
+      <created>1564467484908</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564467484908</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_addFactory - 2019.07.30 at 12h 47m 36s.xml">
-      <configuration name="AppTest.addFactory" configurationId="JUnit" />
+    <history-entry file="AppTest_TimerAdd - 2019.07.30 at 14h 39m 58s.xml">
+      <configuration name="AppTest.TimerAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addFactory - 2019.07.30 at 12h 49m 02s.xml">
-      <configuration name="AppTest.addFactory" configurationId="JUnit" />
+    <history-entry file="AppTest_TimerAdd - 2019.07.30 at 14h 41m 06s.xml">
+      <configuration name="AppTest.TimerAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_addFactory - 2019.07.30 at 12h 51m 48s.xml">
-      <configuration name="AppTest.addFactory" configurationId="JUnit" />
+    <history-entry file="AppTest_TimerAdd - 2019.07.30 at 14h 58m 30s.xml">
+      <configuration name="AppTest.TimerAdd" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AppTest_addFactory - 2019.07.30 at 12h 59m 48s.xml">
       <configuration name="AppTest.addFactory" configurationId="JUnit" />
@@ -589,7 +631,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101326000" />
+    <option name="totallyTimeSpent" value="107510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +655,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04524887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37669683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -704,7 +746,8 @@
     <MESSAGE value="准备修改一下项目结构" />
     <MESSAGE value="将结构修改的一下,利于以后拓展项目" />
     <MESSAGE value="张学文" />
-    <option name="LAST_COMMIT_MESSAGE" value="张学文" />
+    <MESSAGE value="删除Ribbon的负载均衡,采用Feign负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除Ribbon的负载均衡,采用Feign负载均衡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -715,28 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/Instrument/ExportExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/Instrument/Calculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="44" column="101" lean-forward="false" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/Instrument/SewageInstrument.java" />
     <entry file="file://$PROJECT_DIR$/GaeaSys-consumer-80/src/main/java/cn/entelechy/GaeaSysConsumer80_Application.java" />
     <entry file="file://$PROJECT_DIR$/GaeaSys-Eureka-8762/src/main/java/cn/entelechy/EurekaServerApplication8762.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,13 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="123" column="62" lean-forward="true" selection-start-line="123" selection-start-column="62" selection-end-line="123" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaeaSys-api/src/main/java/cn/entelechy/service/sectorStatisticClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -926,6 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,6 +948,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,13 +956,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1564455520668" expanded="true" signature="319:852" ph="insert into monitor_projectdata_today... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,6 +974,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,6 +984,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <marker date="1564456532464" expanded="true" signature="299:801" ph="INSERT into factory... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -976,13 +994,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -990,6 +1002,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -997,6 +1010,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,26 +1041,90 @@
     <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/SectorStatistic8010_Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GaeaSys-consumer-feign/src/main/java/cn/entelechy/controller/sectorStatisticController_Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="261">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding>
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GaeaSys-sector-statistic/src/main/java/cn/entelechy/controller/Citycontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="185">
+          <caret line="19" column="69" lean-forward="true" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaeaSys-api/src/main/java/cn/entelechy/service/sectorStatisticClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AddTodayData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/TodayDataMapperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/test/java/cn/entelechy/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="method#addFactory#0;class#AppTest#0" expanded="false" />
+            <element signature="method#shouldAnswerWithTrue#0;class#AppTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/FactoryMonitor8004_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaeaSys-factory-monitor/src/main/java/cn/entelechy/service/impl/TodayDataMapperServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding />
         </state>
       </provider>

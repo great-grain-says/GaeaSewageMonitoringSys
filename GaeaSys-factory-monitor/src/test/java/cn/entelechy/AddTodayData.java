@@ -1,29 +1,23 @@
-package cn.entelechy.service.impl;
+package cn.entelechy;
 
 import cn.entelechy.dao.TodayDataMapper;
 import cn.entelechy.entities.Monitor_projectData_today;
-import cn.entelechy.service.TodayDataMapperService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Async;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
+import java.util.TimerTask;
 
-@Component
-public class TodayDataMapperServiceImpl implements TodayDataMapperService {
+public class AddTodayData extends TimerTask {
 
     @Autowired
     private TodayDataMapper todayDataMapper;
 
     @Override
-    @Scheduled(fixedRate = 5000)
-    public void setData_today() {
+    public void run() {
         Random rand = new Random();
         for (int i = 0; i < 10; i++) {
             int mdnumber = rand.nextInt(99999 - 10000 + 1) + 10000;
