@@ -9,6 +9,7 @@ import lombok.experimental.Accessors;
 public class City {
     private Integer city_id;
     private String city_name;
+    private Integer province_id;
 
     public Integer getCity_id() {
         return city_id;
@@ -26,5 +27,13 @@ public class City {
     public void setCity_name(String city_name) {
 
         this.city_name = city_name;
+    }
+
+    public Integer getProvince_id() {
+        return province_id;
+    }
+
+    public void setProvince_id(Integer province_id) {
+        this.province_id = province_id;
     }
 }

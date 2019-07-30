@@ -12,7 +12,7 @@ import java.util.Date;
  * 监测项目数据
  */
 public class Monitor_projectData_today implements Serializable {
-    private Integer monitor_projectData_id;
+    private String monitor_projectData_code;
     private Integer factory_id;
     private String emission_sources_code;//(企业排放源头编号)
     private Integer G010;
@@ -30,12 +30,12 @@ public class Monitor_projectData_today implements Serializable {
     private Date monitor_projectData_date_upd;//(记录时间精确到分)
     private String monitor_flag_code;
 
-    public Integer getMonitor_projectData_id() {
-        return monitor_projectData_id;
+    public String getMonitor_projectData_code() {
+        return monitor_projectData_code;
     }
 
-    public void setMonitor_projectData_id(Integer monitor_projectData_id) {
-        this.monitor_projectData_id = monitor_projectData_id;
+    public void setMonitor_projectData_code(String monitor_projectData_code) {
+        this.monitor_projectData_code = monitor_projectData_code;
     }
 
     public Integer getFactory_id() {
