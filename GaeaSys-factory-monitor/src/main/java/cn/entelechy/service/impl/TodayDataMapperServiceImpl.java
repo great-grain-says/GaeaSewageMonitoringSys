@@ -1,17 +1,17 @@
 package cn.entelechy.service.impl;
 
-import cn.entelechy.dao.Monitor_projectdata_todayMapper;
+import cn.entelechy.dao.TodayDataMapper;
 import cn.entelechy.entities.Monitor_projectData_today;
-import cn.entelechy.service.Monitor_projectdata_todayService;
+import cn.entelechy.service.TodayDataMapperService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 @Service
-public class Monitor_projectdata_todayServiceImpl implements Monitor_projectdata_todayService {
+public class TodayDataMapperServiceImpl implements TodayDataMapperService {
 
     @Autowired
-    private Monitor_projectdata_todayMapper mapper;
+    private TodayDataMapper mapper;
 
     @Override
     @Async
